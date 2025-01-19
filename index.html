@@ -13,15 +13,43 @@
     </header>
     <main>
         <section>
-            <h2>Meu processo</h2>
-            <ul>
-                <li>Descobrir</li>
-                <li>Definir</li>
-                <li>Desenvolver</li>
-                <li>Entregar</li>
-            </ul>
+            <h2>Etapas do Double Diamond</h2>
+            <div id="task-container">
+                <div class="phase" id="discover">
+                    <h3>Descobrir</h3>
+                    <ul id="discover-list">
+                        <!-- Tarefas vão aparecer aqui -->
+                    </ul>
+                    <input type="text" placeholder="Adicionar tarefa..." id="discover-input">
+                    <button onclick="addTask('discover')">Adicionar</button>
+                </div>
+                <div class="phase" id="define">
+                    <h3>Definir</h3>
+                    <ul id="define-list">
+                        <!-- Tarefas vão aparecer aqui -->
+                    </ul>
+                    <input type="text" placeholder="Adicionar tarefa..." id="define-input">
+                    <button onclick="addTask('define')">Adicionar</button>
+                </div>
+                <div class="phase" id="develop">
+                    <h3>Desenvolver</h3>
+                    <ul id="develop-list">
+                        <!-- Tarefas vão aparecer aqui -->
+                    </ul>
+                    <input type="text" placeholder="Adicionar tarefa..." id="develop-input">
+                    <button onclick="addTask('develop')">Adicionar</button>
+                </div>
+                <div class="phase" id="deliver">
+                    <h3>Entregar</h3>
+                    <ul id="deliver-list">
+                        <!-- Tarefas vão aparecer aqui -->
+                    </ul>
+                    <input type="text" placeholder="Adicionar tarefa..." id="deliver-input">
+                    <button onclick="addTask('deliver')">Adicionar</button>
+                </div>
+            </div>
         </section>
-    </main>
+    </main>    
     <footer>
         <p>Feito com ❤️ por você!</p>
     </footer>
